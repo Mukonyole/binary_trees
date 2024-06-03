@@ -2,9 +2,8 @@
 /**
  * tree_is_perfect - function that says if a tree is perfect or not.
  * @tree: tree to check
- * Return: 0 if is not a perfect.
+ * Return: 0 if is not a perfect or other number that is the level of height
  */
-
 int tree_is_perfect(const binary_tree_t *tree)
 {
 	int l = 0, r = 0;
